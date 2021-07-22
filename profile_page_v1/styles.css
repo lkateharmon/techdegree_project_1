@@ -110,7 +110,7 @@ header .profile-image:hover {
 
 }
 
-.card2 {
+article {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -121,7 +121,7 @@ header .profile-image:hover {
   transition: all .5s;
   color: black;
 }
-.card2:hover {
+article:hover {
   border-color:salmon;
   transform: scale(1.2) rotate(5deg)
 
