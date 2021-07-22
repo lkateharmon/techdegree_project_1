@@ -59,9 +59,10 @@ a:hover {
   color: coral
 }
 
+
 header {
   text-align: center;
-  background: url('images/kateharmonphotography-13.jpg') no-repeat top center ;
+  background: url('images/island_night.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -97,14 +98,33 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #222;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  color: white;
 }
 .card:hover {
   border-color:salmon;
-  transform: scale(1.2) rotate(-5deg);
+
+
+}
+
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #ffffff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  color: black;
+}
+.card2:hover {
+  border-color:salmon;
+  transform: scale(1.2) rotate(5deg)
+
 }
 
 ul.skills {
@@ -115,15 +135,17 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: white;
+  color: black;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
-}ul.sports {
+  background: #ff7f50;
+}
+
+ul.sports {
   padding: 0;
   text-align: left;
 }
@@ -138,7 +160,7 @@ ul.skills {
 }
 
 .sports li:nth-child(odd) {
-  background: #coral;
+  background: #ff7f50;
 }
 
 .travel li {
@@ -153,6 +175,30 @@ ul.skills {
 .travel li:nth-child(odd) {
   background: #0399ff;
 }
+.gallery{
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+
+}
+h2 {
+  text-align:center
+}
+
+section {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #222;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  color: white;
+}
+
 
 footer {
   width: 100%;
@@ -200,6 +246,29 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+.website {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.location {
+  background-color: #222;
+  color: white;
+}
+a.website:hover{
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
