@@ -176,20 +176,19 @@ ul.sports {
   background: #0399ff;
 }
 .gallery{
-  margin-top: 10px;
+  margin-top: 5px;
   width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  height: auto;
   border: 3px solid white;
-
 }
 h2 {
-  text-align:center
+  text-align:center;
+  margin-top: 0;
 }
 
 section {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px 30px 30px;
   max-width: 500px;
   text-align: left;
   background: #222;
